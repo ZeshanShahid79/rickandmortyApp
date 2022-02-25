@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  list-style: none;
+  padding: 2px 8px;
+  background: rgb(23, 95, 23);
+  border-radius: 5px;
+}
