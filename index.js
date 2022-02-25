@@ -10,18 +10,6 @@ function createCharacterList(characters) {
   listElement.className = 'card-list';
   document.body.append(listElement);
   
-/*
-function createEpisodeList (episodes) {
-  episodes.forEach((episode) => {
-    const episodeUrl = episode.episode[0];
-    console.log(episodeUrl)
-    fetch(episodeUrl)
-    .then((response) => response.json())
-    .then((pokeData) => createCharacterList(pokeData));
-  });
-}
-*/
-
   characters.forEach(character => {
     const card = document.createElement('li');
     card.className = 'card';
