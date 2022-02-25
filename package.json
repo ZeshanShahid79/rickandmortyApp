@@ -1,0 +1,17 @@
+{
+  "name": "ninjaapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run prettier:check",
+    "prettier:write": "npx prettier --write .",
+    "prettier:check": "npx prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
