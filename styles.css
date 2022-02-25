@@ -5,29 +5,62 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #434343;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  margin: 0;
 }
 
 .card-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  padding: 15px;
+  display: grid;
+  align-items: center;
+  gap: 20px;
 }
 
 .card {
   list-style: none;
-  padding: 2px 8px;
-  background: rgb(23, 95, 23);
-  border-radius: 5px;
+  padding: 25px 15px;
+  background: #434343;
+  border: 1px solid #555555;
+  border-radius: 15px;
+  box-shadow: 0 0 20px -5px black;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
 }
 
 .card__name {
 }
 
 .card__image {
+  border-radius: 15px;
+  margin: 20px 0;
 }
 
 .card__statspec {
 }
 
 .card__origin {
+}
+
+.card__tag-list {
+  list-style: none;
+  display: flex;
+  gap: 9px;
+  padding-left: 0;
+  grid-row: 6;
+  margin-top: 20px;
+}
+
+.card__tag-list li {
+  background-color: #323232;
+  color: white;
+  border: 1px solid #555555;
+  border-radius: 8px;
+  padding: 5px 10px;
 }
