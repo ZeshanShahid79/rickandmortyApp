@@ -7,13 +7,13 @@ body {
   padding: 0;
 }
 
-.tag-list {
+.card-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.tag {
+.card {
   list-style: none;
   padding: 2px 8px;
   background: rgb(23, 95, 23);

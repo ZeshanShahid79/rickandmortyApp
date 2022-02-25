@@ -6,12 +6,12 @@ fetch(apiUrl)
 
 function createCharacterList(characters) {
   const listElement = document.createElement('ul');
-  listElement.className = 'tag-list';
+  listElement.className = 'card-list';
   document.body.append(listElement);
 
   characters.forEach(character => {
     const card = document.createElement('li');
-    card.className = 'tag';
+    card.className = 'card';
     card.textContent = character.name;
     listElement.append(card);
   });
